@@ -1,3 +1,3 @@
-FROM vairamuthushanmugaraj/ubuntu:12.04
+FROM vairamuthushanmugaraj/ubuntu:14.04
 RUN apt-get -y update
-RUN apt-get -y install openjdk-6-jre
+RUN apt-get -y install openjdk-7-jre
